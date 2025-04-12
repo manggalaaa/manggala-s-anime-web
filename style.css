@@ -1,0 +1,10 @@
+body { margin: 0; font-family: sans-serif; overflow: hidden; text-align: center; color: white; }
+.background { background-image: url("img/background.jpeg"); background-size: cover; background-position: center; position: fixed; top: 0; left: 0; right: 0; bottom: 0; z-index: -1; }
+.pojok { width: 100px; height: auto; position: fixed; z-index: 10; }
+.atas-kiri { top: 0; left: 0; }
+.atas-kanan { top: 0; right: 0; }
+.bawah-kiri { bottom: 0; left: 0; }
+.bawah-kanan { bottom: 0; right: 0; }
+.judul { margin-top: 100px; font-size: 2rem; font-weight: bold; }
+.desc { margin-top: 10px; font-size: 1.2rem; }
+button { margin-top: 40px; padding: 10px 20px; font-size: 1rem; background: #ff66c4; border: none; border-radius: 10px; color: white; cursor: pointer; }
